@@ -1,0 +1,35 @@
+.CardPricingContainer {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.777);
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+
+.cardPricingTitle {
+    margin-bottom: 3px;
+}
+
+.cardPricingValue {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cardPricingValueConsole {
+    display: flex;
+    flex-direction: row;
+}
+
+.cardPricingValueConsole >span {
+    font-weight: bolder;
+    color: aqua;
+    margin-right: 10px;
+
+}
